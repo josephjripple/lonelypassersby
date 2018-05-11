@@ -8,7 +8,7 @@
     <div class="footer-columns">
         <strong>Location</strong>
           3443 S. Meridian Drive<br>
-          Black Hills, SC
+          Charleston, SC
     </div> <!-- footer column 2 -->
 
     <div class="footer-columns">
@@ -26,17 +26,9 @@
 
 </div> <!-- footer -->
 
-<small>&copy;<?php echo date('Y'); ?> - <?php echo $companyName; ?></small>
-
-</div> <!-- content -->
-
-</div> <!-- wrapper -->
-
 <div class="copyright-info">
-<?php include('includes/copyright.php'); ?>
+  <small><?php echo $companyName; ?> <br> &copy;<?php echo date('Y'); ?></small>
 </div> <!-- copyright info -->
 
 </body>
-
-<script src="lonely.js"></script>
 </html>

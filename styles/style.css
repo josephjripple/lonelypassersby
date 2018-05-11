@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway:400,700');
+
+body {
+  background-color: #232323;
+}
+
+.header-img {
+  top: 0;
+  width: 95% ;
+  max-height: ;
+  opacity: .5;
+  z-index: -1;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+}

@@ -9,10 +9,6 @@
                         title   => 'Home'
                     ),
                     array(
-                        slug    => 'team.php',
-                        title   => 'Team'
-                    ),
-                    array(
                         slug    => 'menu.php',
                         title   => 'Menu'
                     ),
@@ -24,81 +20,81 @@
 
     $menuItems = array(
 
-                    array(
+                  "tmp" => array(
                       dish            =>   "The Magician's Pyramid",
                       ingredients     =>   "Mayan chaya tostada, nopal w/ onion & poblano peppers, black beans & quinoa, drizzled pepita nut cheese.  Side: Avocado half filled with spicy tomato-corn salsa."
                     ),
-                    array(
+                  "mtg" => array(
                       dish            =>   "Moroccan Tree Goat",
                       ingredients     =>   "Loubia beans, cilantro cauliflower rice, squash, zucchini, carrots, plum tagine with spicy harissa sauce wrapped in toasted pita. Side: Shallot hummus and beets."
                     ),
-                    array(
+                  "hitrg" =>  array(
                       dish            =>   "Hafiz in the Rose Garden",
                       ingredients     =>   "Hemp falafel w/ shatta, baba ghanoush w/ pistachio duqqa & rose, muhammara w/ pomegranate seeds."
                     ),
-                    array(
+                  "vy" => array(
                       dish            =>   "Vegan Yinzer",
                       ingredients     =>   "Pittsburgh style lentil burger sandwich w/ radicchio kraut & yucca fries. Add: Over medium egg ($2)."
                     ),
-                    array(
+                  "amf" => array(
                       dish            =>   "A Moveable Feast",
                       ingredients     =>   "Shallot-garlic butter roasted half-chicken, served in sage jus w/ wild french mushrooms, carrots, potato, fig, and chestnuts. Complimentary: 1 glass of red wine."
                     ),
-                    array(
+                  "rls" => array(
                       dish            =>   "Rumi's Love Stew",
                       ingredients     =>   "Chicken guvec stew w/ carrots, tomato, eggplant, and hot turkish peppers.  Cooked with chicken heart."
                     ),
-                    array(
+                  "tppp" =>  array(
                       dish            =>   "The Pensive Polish Poet",
                       ingredients     =>   "Wild polish mushroom & sauerkraut pierogi served w/ vegan golabki."
                     ),
-                    array(
+                  "mm" =>  array(
                       dish            =>   "Mindless Monk",
                       ingredients     =>   "Spicy gochaung soba noodles w/ toasted sesame seeds and seared shiitake mushrooms."
                     ),
-                    array(
+                  "rer" =>  array(
                       dish            =>   "Red-eyed Rastafarian",
-                      ingredients     =>   "Jamaican jerk jackfruit, okra callaloo, tamarind curry yam & plantain."
+                      ingredients     =>   "Jamaican jerk jackfruit, okra callaloo, tamarind curry yam & plantain w/ hemp seeds."
                     ),
     );
 
     $drinkItems = array(
 
-                    array(
+                  "tns" => array(
                       drink            =>   "The Night Shaman",
                       ingredients      =>   "Aged mezcal, jalapeno, pineapple, lime, cucumber, xtabentum."
                     ),
-                    array(
+                  "tbot" => array(
                       drink            =>   "The Bootlegger of Tangier",
                       ingredients      =>   "Mint-infused vodka, pomegranate, lime, kiwi, mint springs."
                     ),
-                    array(
+                  "ths" => array(
                       drink            =>   "The Holy Spirit",
                       ingredients      =>   "Mulled lebanese red wine with cloves, cinnamon, and fresh ginger."
                     ),
-                    array(
+                  "rw" => array(
                       drink            =>   "River Water",
                       ingredients      =>   "Housemade Dry-hopped IPA beer."
                     ),
-                    array(
+                  "jf" => array(
                       drink            =>   "Jazz Funeral",
                       ingredients      =>   "Champagne, absinthe, lemon zest."
                     ),
-                    array(
+                  "zl" => array(
                       drink            =>   "Zulaikha's Longing",
                       ingredients      =>   "Sparkling rose, arak saggi, pomegranate seeds, rose water, cardamom"
                     ),
-                    array(
+                  "ds" => array(
                       drink            =>   "Drunken Sawyer",
                       ingredients      =>   "Polish vodka, elderflower juice and elder bark."
                     ),
-                    array(
+                  "mmd" => array(
                       drink            =>   "Monkberry Moon Delight",
                       ingredients      =>   "Juniper-berry infused sake, umeshu, pickled white lotus root."
                     ),
-                    array(
-                      drink            =>   "Rum Punch",
-                      ingredients      =>   "Jamaican rum punch w/ dark rum, lime, house cherry simple syrup, grated nutmeg."
+                  "jr" => array(
+                      drink            =>   "Jamaican Rain",
+                      ingredients      =>   "Rum punch w/ dark rum, lime, house cherry simple syrup, grated nutmeg."
                     ),
     );
 

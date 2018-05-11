@@ -1,4 +1,4 @@
-<ul>
+<ul class="nav-list">
     <?php
 
         foreach ($navItems as $item) {

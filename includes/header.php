@@ -6,9 +6,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>the lonely passersby</title>
+  <title><?php echo $companyName ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style/style.css">
+  <link href="styles/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="body-container">
@@ -17,7 +17,7 @@
 
     <div class="banner">
         <a href="/" title="Return to Home">
-          <img src="images/restaurant2.jpg" alt="the lonely passersby restaurant">
+          <img class="header-img" src="images/restaurant.png" alt="the lonely passersby restaurant">
     </div><!-- banner -->
 
     <div class="nav">
